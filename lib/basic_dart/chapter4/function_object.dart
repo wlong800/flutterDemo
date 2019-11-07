@@ -1,3 +1,4 @@
+//方法对象
 void main() {
   Function func = printHello;
   func();

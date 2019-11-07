@@ -1,4 +1,4 @@
-//方法对象
+//匿名方法
 void main() {
   var func = (str) {
     print("Hello---$str");
