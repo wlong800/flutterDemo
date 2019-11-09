@@ -1,9 +1,6 @@
 import 'person.dart';
-/**
- * @Author: 雷◕‿◕宇
- * @Description: 继承
- * @Date: 2018/10/30
- */
+
+///继承
 void main() {
 //  var student = new Student();
 //  student.study();
@@ -19,26 +16,23 @@ void main() {
   person.name = "Tom";
   person.age = 18;
 
-  if(person is Student){
+  if (person is Student) {
     person.study();
   }
 
   print(person);
 }
 
-class Student extends Person{
-
-  void study(){
+class Student extends Person {
+  void study() {
     print("Student study...");
   }
 
   @override
   bool get isAdult => age > 15;
 
-
   @override
   void run() {
     print("Student run...");
   }
-
 }

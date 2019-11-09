@@ -1,8 +1,4 @@
-/**
- * @Author: 雷◕‿◕宇
- * @Description: 静态成员
- * @Date: 2018/10/29
- */
+
 void main() {
   var page = new Page();
 

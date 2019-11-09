@@ -1,8 +1,4 @@
-/**
- * @Author: 雷◕‿◕宇
- * @Description: 接口
- * @Date: 2018/10/31
- */
+///接口
 void main() {
   var student = new Student();
   student.run();
@@ -18,17 +14,13 @@ void main() {
 //  }
 //}
 
-abstract class Person{
-
+abstract class Person {
   void run();
-
 }
 
-class Student implements Person{
-
+class Student implements Person {
   @override
   void run() {
     print("Student run...");
   }
-
 }

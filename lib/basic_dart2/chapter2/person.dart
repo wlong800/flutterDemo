@@ -1,8 +1,3 @@
-/**
- * @Author: 雷◕‿◕宇
- * @Description:
- * @Date: 2018/10/30
- */
 
 class Person {
   String name;
