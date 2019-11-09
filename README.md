@@ -2,6 +2,7 @@
 android开发7年，掌握java,kotlin,flutter,python,oc
 
 #### flutter的优势在呢？
+
 1.google推出，开源
 2.跨平台
 3.执行速度快
