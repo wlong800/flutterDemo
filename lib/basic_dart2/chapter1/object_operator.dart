@@ -1,8 +1,4 @@
-/**
- * @Author: 雷◕‿◕宇
- * @Description: 对象操作符
- * @Date: 2018/10/29
- */
+///对象操作符
 void main() {
 //  Person person = new Person();
 //  person?.name;
