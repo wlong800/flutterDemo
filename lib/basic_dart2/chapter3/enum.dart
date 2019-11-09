@@ -1,20 +1,15 @@
-/**
- * @Author: 雷◕‿◕宇
- * @Description: 枚举
- * @Date: 2018/10/31
- */
-
+///枚举
 //const spring = 0;
 //const summer = 1;
 //const autumn = 2;
 //const winter = 3;
 
 void main() {
-  var currentSeason  = Season.winter;
+  var currentSeason = Season.winter;
 
   print(currentSeason.index);
 
-  switch(currentSeason){
+  switch (currentSeason) {
     case Season.spring:
       print("1-3月");
       break;
@@ -30,9 +25,4 @@ void main() {
   }
 }
 
-enum Season{
-  spring,
-  summer,
-  autumn,
-  winter
-}
+enum Season { spring, summer, autumn, winter }

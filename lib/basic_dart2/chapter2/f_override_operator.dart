@@ -1,11 +1,4 @@
-/**
- * @Author: 雷◕‿◕宇
- * @Description: 覆写操作符
- * @Date: 2018/10/31
- */
-
 void main() {
-
   var person1 = new Person(20);
   var person2 = new Person(20);
 
@@ -17,17 +10,17 @@ void main() {
   print(person1 == person2);
 }
 
-class Person{
+class Person {
   int age;
 
   Person(this.age);
 
-  bool operator >(Person person){
+  bool operator >(Person person) {
     return this.age > person.age;
   }
 
-  int operator [](String str){
-    if("age" == str){
+  int operator [](String str) {
+    if ("age" == str) {
       return age;
     }
 
@@ -37,12 +30,8 @@ class Person{
   @override
   bool operator ==(Object other) =>
       identical(this, other) ||
-          other is Person &&
-              runtimeType == other.runtimeType &&
-              age == other.age;
+      other is Person && runtimeType == other.runtimeType && age == other.age;
 
   @override
   int get hashCode => age.hashCode;
-
-
 }
