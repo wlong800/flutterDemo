@@ -1,5 +1,5 @@
 ///逻辑运算符
-void main(){
+void main() {
   bool isTrue = true;
   print(!isTrue);
 
@@ -9,5 +9,4 @@ void main(){
 
   String str = "";
   print(str.isNotEmpty);
-
 }
