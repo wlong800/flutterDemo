@@ -123,4 +123,12 @@ set area(value) {
 * dart中类型是可选的，可使用泛型限定类型
 * 使用泛型有效的减少代码重复
 
-9.flutter中接口使用方式
+#### flutter基础篇
+1.Text->TextView
+
+2.Image->ImageView
+3.
+
+#### flutter进价篇
+
+#### flutter项目实战
